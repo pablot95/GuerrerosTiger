@@ -1382,6 +1382,18 @@ img {
     border: 3px solid var(--gold);
 }
 
+.founder-country-logo {
+    flex-shrink: 0;
+}
+
+.founder-country-logo img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.15);
+}
+
 .founder-portrait {
     flex-shrink: 0;
 }
